@@ -77,3 +77,87 @@
 
 .get-started:hover {
   background-color: #1e40af;}
+
+  /*section css*\
+    /* HERO SECTION */
+    .hero {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      height: 100vh;
+      color: #fff;
+      position: relative;
+      padding: 0 20px;
+      background: rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(2px);
+    }
+  
+    .hero-content {
+      z-index: 2;
+    }
+  
+    .hero-title {
+      font-size: 5rem;
+      font-weight: 800;
+      line-height: 1.1;
+      margin-bottom: 30px;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+  
+    .gradient-text {
+      background: linear-gradient(90deg, #4a90e2, #e84ad5);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  
+    .hero-subtitle {
+      font-size: 1.25rem;
+      margin-bottom: 40px;
+      color: #e0e0e0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+  
+    .hero-buttons {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      margin-bottom: 20px;
+      margin-top: 150px;
+    }
+  
+    .btn-primary {
+      background-color: #0066ff;
+      color: #fff;
+      font-weight: 600;
+      font-size: 20px;
+      padding: 14px 28px;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+  
+    .btn-primary:hover {
+      background-color: #0052cc;
+    }
+  
+    .btn-secondary {
+      background-color: #2f3640;
+      color: #fff;
+      font-weight: 600;
+      padding: 14px 28px;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+  
+    .btn-secondary:hover {
+      background-color: #444;
+    }
+  
+    .hero-note {
+      margin-top: 20px;
+      color: #ccc;
+      font-size: 0.95rem;
+    }
